@@ -30,6 +30,3 @@ def solution(A):
         if elem == counter:
             counter +=1
     return counter
-
-
-
