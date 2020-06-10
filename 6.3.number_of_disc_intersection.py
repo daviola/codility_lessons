@@ -34,8 +34,7 @@ def alt_solution(A):
     higher_ends = []
     counter = 0
     for i in range(len(A)):
-        lower_end = i - A[i]        
-        print(higher_ends)
+        lower_end = i - A[i]                
         if not lower_end:
             lower_end = 0
         for j  in  range(len(higher_ends)):
