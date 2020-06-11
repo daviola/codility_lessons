@@ -31,11 +31,7 @@ def solution(S):
                 else:
                     return 0
             else:
-                return 0                         
+                return 0
     if not brackets:
         return 1
     return 0
-
-print(solution("{[()()]}"))
-print(solution("([)()]"))
-
